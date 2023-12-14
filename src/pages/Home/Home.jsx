@@ -78,6 +78,7 @@ const Home = () => {
           <Bird />
           <Sky
             isRotating={isRotating} 
+            rotationSpeed={0.0205}
           />
 
           <Island
